@@ -199,6 +199,46 @@ nav .container {
   font-size: 0.95rem;
 }
 
+/* ---------- Featured publication ---------- */
+.featured-publication {
+  background-color: var(--light-bg);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.featured-publication h2 {
+  margin-bottom: 2rem;
+}
+
+.book-card {
+  border-left: 4px solid var(--sand);
+  background-color: var(--white);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--sand);
+  padding: 1.75rem 2rem;
+}
+
+.book-info h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.75rem;
+}
+
+.book-info h3 a {
+  color: var(--navy);
+}
+
+.book-info h3 a:hover {
+  color: var(--ocean);
+  text-decoration: underline;
+}
+
+.book-info p {
+  color: var(--muted);
+  font-size: 1rem;
+  max-width: 680px;
+  margin-bottom: 1.5rem;
+}
+
 /* ---------- Professional bridge ---------- */
 .professional-bridge {
   background-color: #eef3f7;
