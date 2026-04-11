@@ -239,6 +239,16 @@ nav .container {
   margin-bottom: 1.5rem;
 }
 
+.pub-meta {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-bottom: 0.75rem;
+}
+
+.book-card + .book-card {
+  margin-top: 1.5rem;
+}
+
 /* ---------- Professional bridge ---------- */
 .professional-bridge {
   background-color: #eef3f7;
