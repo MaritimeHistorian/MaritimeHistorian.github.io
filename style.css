@@ -452,6 +452,14 @@ footer a:hover {
   color: var(--white);
 }
 
+/* ---------- Chinese character display ---------- */
+.chinese-char {
+  font-size: 4rem;
+  line-height: 1;
+  margin-block: 0.5rem 1rem;
+  color: var(--ocean);
+}
+
 /* ---------- Responsive ---------- */
 @media (max-width: 640px) {
   h1 { font-size: 2rem; }
